@@ -1,0 +1,13 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+.comp {
+  border: 1px solid blue;
+  padding: 0px 0px 30px 30px;
+}
+
+.comp button {
+  margin-right: 10px;
+}
