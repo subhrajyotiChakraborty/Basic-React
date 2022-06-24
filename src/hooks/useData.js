@@ -7,7 +7,6 @@ export const useData = (todoId) => {
   const [todo, setTodo] = useState(null);
 
   async function fetchTodo() {
-    debugger;
     try {
       const response = await axios.get(todoId + "");
       setTodo(response.data);
@@ -17,7 +16,6 @@ export const useData = (todoId) => {
   }
 
   useEffect(() => {
-    debugger;
     fetchTodo();
   }, [todoId]);
 

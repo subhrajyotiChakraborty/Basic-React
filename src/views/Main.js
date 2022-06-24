@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 
 import Comp from "../components/Comp";
 import Top from "../components/Top";
+import Chart from "../components/Chart";
 import { CountContext } from "../reducers/countReducer";
 
 export default function Main() {
@@ -14,6 +15,8 @@ export default function Main() {
       <Comp name="One" />
       <hr />
       <Comp name="Two" />
+      <hr />
+      <Chart />
     </div>
   );
 }
